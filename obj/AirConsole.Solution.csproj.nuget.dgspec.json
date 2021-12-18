@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ash/Desktop/AirConsole.Solution/AirConsole.Solution.csproj": {}
+  },
+  "projects": {
+    "/home/ash/Desktop/AirConsole.Solution/AirConsole.Solution.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ash/Desktop/AirConsole.Solution/AirConsole.Solution.csproj",
+        "projectName": "AirConsole.Solution",
+        "projectPath": "/home/ash/Desktop/AirConsole.Solution/AirConsole.Solution.csproj",
+        "packagesPath": "/home/ash/.nuget/packages/",
+        "outputPath": "/home/ash/Desktop/AirConsole.Solution/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ash/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "ConsoleTables": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
